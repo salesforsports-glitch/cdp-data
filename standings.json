@@ -48,4 +48,43 @@
     "team": "UE Santa Coloma B",
     "played": 10,
     "win": 4,
-    "d
+    "draw": 0,
+    "lose": 6,
+    "gf": 0,
+    "ga": 0,
+    "points": 12
+  },
+  {
+    "rank": 6,
+    "team": "Pirineus United FC",
+    "played": 10,
+    "win": 3,
+    "draw": 1,
+    "lose": 6,
+    "gf": 0,
+    "ga": 0,
+    "points": 10
+  },
+  {
+    "rank": 7,
+    "team": "FC Santa Coloma B",
+    "played": 10,
+    "win": 2,
+    "draw": 0,
+    "lose": 8,
+    "gf": 0,
+    "ga": 0,
+    "points": 6
+  },
+  {
+    "rank": 8,
+    "team": "CE Principat",
+    "played": 10,
+    "win": 0,
+    "draw": 1,
+    "lose": 9,
+    "gf": 0,
+    "ga": 0,
+    "points": 1
+  }
+]
