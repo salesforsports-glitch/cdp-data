@@ -1,0 +1,35 @@
+[
+  {
+    "rank": 1,
+    "team": "CDP Football Club",
+    "played": 14,
+    "win": 10,
+    "draw": 3,
+    "lose": 1,
+    "gf": 31,
+    "ga": 12,
+    "points": 33
+  },
+  {
+    "rank": 2,
+    "team": "Sporting Escaldes",
+    "played": 14,
+    "win": 11,
+    "draw": 2,
+    "lose": 1,
+    "gf": 36,
+    "ga": 10,
+    "points": 35
+  },
+  {
+    "rank": 3,
+    "team": "UE Santa Coloma B",
+    "played": 14,
+    "win": 8,
+    "draw": 2,
+    "lose": 4,
+    "gf": 25,
+    "ga": 18,
+    "points": 26
+  }
+]
