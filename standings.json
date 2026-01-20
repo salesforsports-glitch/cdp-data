@@ -1,35 +1,29 @@
-[
-  {
-    "rank": 1,
-    "team": "CDP Football Club",
-    "played": 14,
-    "win": 10,
-    "draw": 3,
-    "lose": 1,
-    "gf": 31,
-    "ga": 12,
-    "points": 33
-  },
-  {
-    "rank": 2,
-    "team": "Sporting Escaldes",
-    "played": 14,
-    "win": 11,
-    "draw": 2,
-    "lose": 1,
-    "gf": 36,
-    "ga": 10,
-    "points": 35
-  },
-  {
-    "rank": 3,
-    "team": "UE Santa Coloma B",
-    "played": 14,
-    "win": 8,
-    "draw": 2,
-    "lose": 4,
-    "gf": 25,
-    "ga": 18,
-    "points": 26
-  }
-]
+import requests
+from bs4 import BeautifulSoup
+import json
+
+url = "https://www.faf.ad/pnfg/NPcd/NFG_VisClasificacion?cod_primaria=1000120&codgrupo=697086&codcompeticion=672721&codtemporada=21"
+html = requests.get(url).text
+soup = BeautifulSoup(html, "html.parser")
+
+table = soup.find("table")
+rows = table.find_all("tr")[1:]
+
+standings = []
+
+for r in rows:
+    cols = [c.text.strip() for c in r.find_all("td")]
+    standings.append({
+        "rank": cols[0],
+        "team": cols[1],
+        "played": cols[2],
+        "win": cols[3],
+        "draw": cols[4],
+        "lose": cols[5],
+        "gf": cols[6],
+        "ga": cols[7],
+        "points": cols[8],
+    })
+
+with open("standings.json", "w") as f:
+    json.dump(standings, f, ensure_ascii=False, indent=2)
