@@ -2,29 +2,29 @@
   {
     "rank": 1,
     "team": "Sporting Club d'Escaldes",
-    "played": 10,
+    "played": 11,
     "win": 8,
     "draw": 2,
     "lose": 0,
     "gf": 0,
     "ga": 0,
-    "points": 26
+    "points": 29
   },
   {
     "rank": 2,
     "team": "CE Casa de Portugal",
-    "played": 10,
+    "played": 11,
     "win": 7,
     "draw": 3,
     "lose": 0,
     "gf": 0,
     "ga": 0,
-    "points": 24
+    "points": 27
   },
   {
     "rank": 3,
     "team": "FS la Massana",
-    "played": 10,
+    "played": 11,
     "win": 7,
     "draw": 1,
     "lose": 2,
@@ -35,7 +35,7 @@
   {
     "rank": 4,
     "team": "City Escaldes FC",
-    "played": 10,
+    "played": 11,
     "win": 5,
     "draw": 0,
     "lose": 5,
@@ -46,29 +46,29 @@
   {
     "rank": 5,
     "team": "UE Santa Coloma B",
-    "played": 10,
+    "played": 11,
     "win": 4,
     "draw": 0,
     "lose": 6,
     "gf": 0,
     "ga": 0,
-    "points": 12
+    "points": 15
   },
   {
     "rank": 6,
     "team": "Pirineus United FC",
-    "played": 10,
+    "played": 11,
     "win": 3,
     "draw": 1,
     "lose": 6,
     "gf": 0,
     "ga": 0,
-    "points": 10
+    "points": 13
   },
   {
     "rank": 7,
     "team": "FC Santa Coloma B",
-    "played": 10,
+    "played": 11,
     "win": 2,
     "draw": 0,
     "lose": 8,
@@ -79,7 +79,7 @@
   {
     "rank": 8,
     "team": "CE Principat",
-    "played": 10,
+    "played": 11,
     "win": 0,
     "draw": 1,
     "lose": 9,
